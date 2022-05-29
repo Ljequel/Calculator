@@ -10,21 +10,31 @@ body{
   border-radius: 10px;
   
 }
-.btn-noir, .btn-orange{
+.btn-noir, .btn-orange, #Clear {
     width: 60px;
     height: 100px;
     text-align: center;
     margin: 10px;
-    border: 2px solid rgb(37, 37, 37);
+    border: 2px solid teal;
     border-radius: 10px; 
     font-size: 25px ;
     box-shadow: -5px 5px 5px rgb(34, 34, 34);
 }
-.btn-noir{
+#equal {
+    width: 312px;
+    height: 60px;
+    margin: 10px;
+    border: 2px solid teal;
+    border-radius: 10px; 
+    font-size: 25px ;
+    box-shadow: -5px 5px 5px rgb(34, 34, 34);
+
+}
+.btn-noir , #Clear{
     background-color: black;
     color: orange;
 }
-.btn-orange{
+#equal {
     background-color: orange;
     color: black;
     font-weight: bold;
@@ -37,18 +47,28 @@ body{
     transform: translateY(4px);
     
   }
-.btn-orange:active{
+#Clear:active{
+    background-color: orange;
+    color: black;
+    box-shadow: -1px 1px 5px rgb(34,34,34);
+    transform: translateY(4px);
+    
+  }
+#equal:active{
     background-color: #000000;
     color: orange;
     
   }
   
-  #screen {
+  #result {
+      margin: auto;
+      margin-top: 10px;
+      justify-content: center;
       width: 98%;
       height: 100px;
       border-radius: 10px;
       background-color: #e4e0e0;
-      font-size: 30px;
+      font-size: 6rem;
       font-weight: bold;
       font-family: 'Digital-7';
       src: url(https://www.dafont.com/fr/digital-7.font) format("truetype");
